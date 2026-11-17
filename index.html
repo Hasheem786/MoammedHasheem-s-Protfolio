@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mohammed Hasheem - Software Engineer & .NET Developer with 4.5+ years experience building enterprise web, desktop, and AI-powered document processing applications.">
+  <meta name="keywords" content="Mohammed Hasheem, Software Engineer, .NET Developer, C#, Java, Core Java, ASP.NET Core, Razor Pages, MVC, WPF, Windows Forms, PostgreSQL, SQL Server, React, AI-First Engineering">
+  <meta name="author" content="Mohammed Hasheem">
+
+  <title>Mohammed Hasheem | Software Engineer | .NET Developer | Web & Desktop Applications</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Three.js 3D Engine from CDN with automated fallback -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+  <!-- Three.js Ambient 3D Starfield & Constellation Canvas -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <div class="interactive-scene-layer">
+
+    <!-- Floating Glassmorphic Navbar -->
+    <header class="navbar">
+      <nav class="nav-pill">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#architecture" class="nav-link">Architecture</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#certifications" class="nav-link">Certification</a></li>
+          <li><a href="#terminal" class="nav-link">Terminal</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile" aria-label="GitHub Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <button class="btn-resume btn-open-resume-modal">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Resume
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section with 3D Core Interactive Widget -->
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-top-row">
+              <span class="hero-monogram-badge">MH</span>
+              <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>Available for .NET & Web/Desktop Software Engineering Roles</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Engineering Resilient Software with <span class="gradient-text">Modern .NET & AI.</span>
+            </h1>
+
+            <p class="hero-desc">
+              I'm <strong>Mohammed Hasheem</strong>, a Software Engineer with <strong>4.5+ years of experience</strong> developing and modernizing web and desktop applications using C# and the .NET ecosystem (ASP.NET Core, Razor Pages, MVC, WPF, Windows Forms, PostgreSQL, and SQL Server), alongside AI document automation and legacy migration solutions.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">
+                Explore Featured Work
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="#architecture" class="btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                3D System Studio
+              </a>
+              <button class="btn-secondary btn-open-resume-modal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Resume PDF
+              </button>
+              <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer" class="btn-secondary" title="LinkedIn Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer" class="btn-secondary" title="GitHub Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+
+            <div class="stats-strip">
+              <div class="stat-item">
+                <span class="stat-number">4.5+</span>
+                <span class="stat-label">Years Production Exp</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">&gt;40%</span>
+                <span class="stat-label">Manual Effort Cut (OCR)</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">Hrs→Min</span>
+                <span class="stat-label">OCC Migration Speed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">SOLID & Clean Code</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero 3D Interactive Card Component -->
+          <div class="hero-visual">
+            <div class="hero-3d-card">
+              <div class="card-header-chip">
+                <div class="tech-badge-dot">
+                  <span class="pulse-dot"></span>
+                  <span>.NET ARCHITECTURE ENGINE</span>
+                </div>
+                <span style="font-size:0.75rem;color:var(--text-muted);font-family:var(--font-mono)">v4.5</span>
+              </div>
+
+              <!-- Interactive 3D Canvas Container -->
+              <div class="card-interactive-canvas-container">
+                <canvas id="hero-canvas-3d"></canvas>
+                <div class="canvas-hint">Drag to rotate 3D core</div>
+              </div>
+
+              <div class="card-meta-list">
+                <div class="card-meta-item">
+                  <span class="label">Role Title</span>
+                  <span class="val">Software Engineer | .NET Developer</span>
+                </div>
+                <div class="card-meta-item">
+                  <span class="label">Core Stack</span>
+                  <span class="val">C# · Java · ASP.NET Core · WPF · WinForms</span>
+                </div>
+                <div class="card-meta-item">
+                  <span class="label">Databases</span>
+                  <span class="val">PostgreSQL · MS SQL Server</span>
+                </div>
+                <div class="card-meta-item">
+                  <span class="label">Specialization</span>
+                  <span class="val">Web & Desktop · AI OCR · OCC Migration</span>
+                </div>
+                <div class="card-meta-item">
+                  <span class="label">Location</span>
+                  <span class="val">Mysore, Karnataka, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section: About & Engineering Philosophy -->
+      <section id="about">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Profile Overview</div>
+            <h2 class="section-title">Architecting Software with <span class="gradient-text">Precision & Integrity</span></h2>
+            <p class="section-subtitle">A balanced engineer bridging scalable backend systems, database performance, desktop utilities, and user-centric web applications.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="glass-card about-narrative">
+              <p class="lead-paragraph">
+                I am a <strong>Software Engineer with 4.5+ years of experience</strong> developing and modernizing web and desktop applications using C# and the .NET ecosystem. Hands-on experience with ASP.NET Core, Razor Pages, MVC, WPF, Windows Forms, PostgreSQL, and Microsoft SQL Server.
+              </p>
+
+              <p class="body-paragraph">
+                Over my tenure at <strong>Stellaris Technologies Pvt Ltd (Jan 2022 – Present)</strong>, I have delivered end-to-end automation solutions for high-throughput document processing and legacy-system migration, alongside critical applications in education and healthcare-related domains.
+              </p>
+
+              <div class="highlight-box">
+                <p>
+                  "Clean architecture, SOLID principles, and rigorous automated testing are not afterthoughts—they are the foundation that allows enterprise software to scale reliably, perform under load, and adapt without friction."
+                </p>
+              </div>
+
+              <p class="body-paragraph">
+                My engineering experience spans the complete software lifecycle: from requirements analysis and architectural implementation to database development, debugging, testing, and delivery. I also hold an <strong>AI-First Software Engineering (Core Java) Certification from Airtribe (14 October 2026)</strong>, applying LLM and automated AI capabilities to modern software pipelines.
+              </p>
+            </div>
+
+            <div class="glass-card about-sidecard">
+              <div>
+                <div class="profile-summary-header">
+                  <div class="avatar-3d-node">MH</div>
+                  <div class="profile-info">
+                    <h3>Mohammed Hasheem</h3>
+                    <p>Software Engineer | .NET Developer | Web & Desktop Applications</p>
+                  </div>
+                </div>
+
+                <div class="quick-details">
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Mysore, Karnataka, India</span>
+                  </div>
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <a href="mailto:hasheem7860@gmail.com" style="color:inherit;text-decoration:none;">hasheem7860@gmail.com</a>
+                  </div>
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="tel:+916361846692" style="color:inherit;text-decoration:none;">+91-6361846692</a>
+                  </div>
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);text-decoration:underline;">LinkedIn Profile</a>
+                  </div>
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);text-decoration:underline;">GitHub Profile</a>
+                  </div>
+                  <div class="detail-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                    <span>B.E. · BGS Institute of Technology (August 2021)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.08);">
+                <button class="btn-primary btn-copy-info" data-copy="hasheem7860@gmail.com" style="width:100%;justify-content:center;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  Copy Email Address
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Technical Skills 3D Interactive Matrix -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Capabilities & Competencies</div>
+            <h2 class="section-title">Technical <span class="gradient-text">Skills Matrix</span></h2>
+            <p class="section-subtitle">Deep proficiency across backend .NET, distributed databases, desktop systems, and modern AI automation.</p>
+          </div>
+
+          <!-- Filter Navigation -->
+          <div class="skills-filter-nav">
+            <button class="filter-btn active" data-category="all">All Skills (100%)</button>
+            <button class="filter-btn" data-category="dotnet">Languages & .NET</button>
+            <button class="filter-btn" data-category="database">Databases & SQL</button>
+            <button class="filter-btn" data-category="web">Web & UI</button>
+            <button class="filter-btn" data-category="qa">Quality & Architecture</button>
+            <button class="filter-btn" data-category="ai">AI & Document Tech</button>
+          </div>
+
+          <!-- Skills Cards Grid -->
+          <div class="skills-grid">
+
+            <!-- Card 1: Programming & .NET -->
+            <div class="skill-category-card" data-category="dotnet">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div>
+                  <h3>Programming & .NET</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">Core Frameworks & Languages</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>C# (.NET Core & .NET Framework)</span>
+                    <span class="skill-level-text">Senior · 95%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:95%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>ASP.NET Core (Razor Pages & MVC)</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>WPF (Windows Presentation Foundation)</span>
+                    <span class="skill-level-text">90%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:90%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Windows Forms</span>
+                    <span class="skill-level-text">88%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:88%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Java (Core Java)</span>
+                    <span class="skill-level-text">85%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:85%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">C#</span>
+                <span class="tech-chip">Java (Core Java)</span>
+                <span class="tech-chip">.NET Core</span>
+                <span class="tech-chip">ASP.NET Core</span>
+                <span class="tech-chip">MVC</span>
+                <span class="tech-chip">Razor Pages</span>
+                <span class="tech-chip">WPF</span>
+                <span class="tech-chip">Windows Forms</span>
+              </div>
+            </div>
+
+            <!-- Card 2: Databases -->
+            <div class="skill-category-card" data-category="database">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <div>
+                  <h3>Databases & Data Storage</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">Relational Architecture & Tuning</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>PostgreSQL</span>
+                    <span class="skill-level-text">Advanced · 92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Microsoft SQL Server</span>
+                    <span class="skill-level-text">90%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:90%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Stored Procedures</span>
+                    <span class="skill-level-text">93%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:93%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Query Optimization</span>
+                    <span class="skill-level-text">88%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:88%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">PostgreSQL</span>
+                <span class="tech-chip">Microsoft SQL Server</span>
+                <span class="tech-chip">Stored Procedures</span>
+                <span class="tech-chip">Query Optimization</span>
+                <span class="tech-chip">Relational Data Structures</span>
+                <span class="tech-chip">Indexing</span>
+              </div>
+            </div>
+
+            <!-- Card 3: Web & UI -->
+            <div class="skill-category-card" data-category="web">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                <div>
+                  <h3>Web & UI Technologies</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">Modern Interactive Interfaces</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>HTML5 & CSS3</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>React (Document Management UI)</span>
+                    <span class="skill-level-text">85%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:85%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>XML Data Parsing</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>JSON Schema & Serialization</span>
+                    <span class="skill-level-text">94%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:94%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">HTML5</span>
+                <span class="tech-chip">CSS3</span>
+                <span class="tech-chip">React</span>
+                <span class="tech-chip">XML</span>
+                <span class="tech-chip">JSON</span>
+                <span class="tech-chip">REST APIs</span>
+                <span class="tech-chip">Responsive UI</span>
+              </div>
+            </div>
+
+            <!-- Card 4: Testing & Quality -->
+            <div class="skill-category-card" data-category="qa">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <div>
+                  <h3>Testing & Quality</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">Rigorous Verification & Debugging</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Unit Testing</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Manual Integration Testing</span>
+                    <span class="skill-level-text">90%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:90%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>System Performance Testing</span>
+                    <span class="skill-level-text">88%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:88%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Debugging & Diagnostics</span>
+                    <span class="skill-level-text">94%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:94%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">Unit Testing</span>
+                <span class="tech-chip">Manual Integration Testing</span>
+                <span class="tech-chip">System Performance Testing</span>
+                <span class="tech-chip">Debugging</span>
+                <span class="tech-chip">Performance Validation</span>
+              </div>
+            </div>
+
+            <!-- Card 5: Tools & Practices -->
+            <div class="skill-category-card" data-category="qa">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <div>
+                  <h3>Tools & Practices</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">SDLC, Versioning & Architecture</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Visual Studio</span>
+                    <span class="skill-level-text">95%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:95%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Git & GitHub</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Agile / Scrum</span>
+                    <span class="skill-level-text">94%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:94%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>SOLID Principles</span>
+                    <span class="skill-level-text">95%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:95%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">Visual Studio</span>
+                <span class="tech-chip">Git</span>
+                <span class="tech-chip">GitHub</span>
+                <span class="tech-chip">Agile/Scrum</span>
+                <span class="tech-chip">SOLID Principles</span>
+                <span class="tech-chip">Requirements Analysis</span>
+              </div>
+            </div>
+
+            <!-- Card 6: AI & Document Intelligence -->
+            <div class="skill-category-card" data-category="ai">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                </div>
+                <div>
+                  <h3>AI & Automation Solutions</h3>
+                  <span style="font-size:0.75rem;color:var(--text-muted)">OCR & Automated Workflows</span>
+                </div>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Google Cloud OCR API & Tesseract</span>
+                    <span class="skill-level-text">92%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:92%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Context-Aware Field Extraction</span>
+                    <span class="skill-level-text">93%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:93%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>Legacy Migration (OCC to Intelligent Capture)</span>
+                    <span class="skill-level-text">94%</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:94%"></div></div>
+                </div>
+                <div class="skill-entry">
+                  <div class="skill-name-row">
+                    <span>AI-First Software Engineering (Core Java)</span>
+                    <span class="skill-level-text">Airtribe Certified</span>
+                  </div>
+                  <div class="skill-progress-track"><div class="skill-progress-bar" style="width:96%"></div></div>
+                </div>
+              </div>
+              <div class="skill-badges">
+                <span class="tech-chip">Google Cloud OCR</span>
+                <span class="tech-chip">Tesseract</span>
+                <span class="tech-chip">OpenText OCC</span>
+                <span class="tech-chip">Intelligent Capture</span>
+                <span class="tech-chip">AI-First SDLC</span>
+                <span class="tech-chip">Document Encryption</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Featured Projects Showcase -->
+            <!-- Section: Featured Projects Showcase -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Case Studies & Production Work</div>
+            <h2 class="section-title">Selected <span class="gradient-text">Engineering Projects</span></h2>
+            <p class="section-subtitle">Real-world applications delivering measurable business outcomes, performance optimization, and automation.</p>
+          </div>
+
+          <div class="projects-grid">
+
+            <!-- Project 1: Smart Examiner & Institutional Progress Tracker -->
+            <article class="project-card">
+              <div>
+                <div class="project-top-meta">
+                  <span class="project-domain-tag">Education & Assessment</span>
+                  <span class="project-impact-badge">📊 Institutional Analytics</span>
+                </div>
+
+                <h3 class="project-title">Smart Examiner & Institutional Progress Tracker</h3>
+                <p class="project-summary">
+                  Developed an educational portal and a desktop question-paper creation application to help educators create assessments and track institutional progress.
+                </p>
+
+                <ul class="project-key-bullets">
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Built an <strong>ASP.NET Core Razor Pages</strong> interface for generating customized question papers using templates.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Designed a <strong>PostgreSQL backend</strong> for student-performance data and reporting dashboards.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Implemented <strong>C# input validation</strong>, score processing and progress reporting.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tech-stack">
+                  <span class="tech-chip">ASP.NET Core</span>
+                  <span class="tech-chip">Razor Pages</span>
+                  <span class="tech-chip">PostgreSQL</span>
+                  <span class="tech-chip">C#</span>
+                  <span class="tech-chip">Desktop WinForms</span>
+                </div>
+                <div class="project-action-row">
+                  <button class="btn-inspect-arch" data-target-arch="smart-examiner">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    Inspect Architecture
+                  </button>
+                  <span style="font-size:0.75rem;color:var(--text-dim);font-family:var(--font-mono)">PROD READY</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Automated Document Processing Solution -->
+            <article class="project-card">
+              <div>
+                <div class="project-top-meta">
+                  <span class="project-domain-tag">AI OCR · FinTech & Operations</span>
+                  <span class="project-impact-badge">⚡ &gt;40% Manual Effort Reduction</span>
+                </div>
+
+                <h3 class="project-title">Automated Document Processing Solution</h3>
+                <p class="project-summary">
+                  Built a document-capture solution to extract text from invoices, receipts and financial statements.
+                </p>
+
+                <ul class="project-key-bullets">
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Integrated <strong>Google Cloud OCR API</strong> and <strong>Tesseract</strong> with C#/.NET for text extraction.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Developed a <strong>React document-management interface</strong> backed by a C# processing pipeline.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Implemented <strong>encryption measures</strong> for sensitive client documents; reduced manual processing effort by <strong>40%+</strong>.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tech-stack">
+                  <span class="tech-chip">C# / .NET Core</span>
+                  <span class="tech-chip">Google Cloud OCR</span>
+                  <span class="tech-chip">Tesseract</span>
+                  <span class="tech-chip">React</span>
+                  <span class="tech-chip">Encryption</span>
+                </div>
+                <div class="project-action-row">
+                  <button class="btn-inspect-arch" data-target-arch="ocr-pipeline">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    Inspect Architecture
+                  </button>
+                  <span style="font-size:0.75rem;color:var(--text-dim);font-family:var(--font-mono)">PROD READY</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Automated Migration Framework -->
+            <article class="project-card">
+              <div>
+                <div class="project-top-meta">
+                  <span class="project-domain-tag">Enterprise Modernization</span>
+                  <span class="project-impact-badge">⏱️ Hours → Minutes</span>
+                </div>
+
+                <h3 class="project-title">Automated Migration Framework</h3>
+                <p class="project-summary">
+                  Created a utility to support migration from OpenText Capture Center (OCC) to Intelligent Capture systems.
+                </p>
+
+                <ul class="project-key-bullets">
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Used <strong>C# and WPF</strong> to automate configuration and reduce migration work from several hours to minutes.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Automated conversion of configuration files, classification rules, and extraction batch schemas.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Prevented configuration defects during system migrations with automated integrity checks.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tech-stack">
+                  <span class="tech-chip">C#</span>
+                  <span class="tech-chip">WPF</span>
+                  <span class="tech-chip">OpenText OCC</span>
+                  <span class="tech-chip">Intelligent Capture</span>
+                  <span class="tech-chip">XML</span>
+                </div>
+                <div class="project-action-row">
+                  <button class="btn-inspect-arch" data-target-arch="occ-migration">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    Inspect Architecture
+                  </button>
+                  <span style="font-size:0.75rem;color:var(--text-dim);font-family:var(--font-mono)">PROD READY</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4: Label-Based Extraction Tool -->
+            <article class="project-card">
+              <div>
+                <div class="project-top-meta">
+                  <span class="project-domain-tag">Computer Vision & Intelligence</span>
+                  <span class="project-impact-badge">🧠 Layout Agnostic</span>
+                </div>
+
+                <h3 class="project-title">Label-Based Extraction Tool</h3>
+                <p class="project-summary">
+                  Developed a field-extraction tool that identifies values using contextual labels rather than fixed layout coordinates.
+                </p>
+
+                <ul class="project-key-bullets">
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Used <strong>C# and WPF</strong> to build an interactive workspace for form registration and template setup.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Identifies form values through <strong>contextual label relationships</strong> rather than rigid XY coordinates.</span>
+                  </li>
+                  <li class="project-bullet-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Significantly enhanced extraction robustness across variable scanned document formats.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tech-stack">
+                  <span class="tech-chip">C#</span>
+                  <span class="tech-chip">WPF</span>
+                  <span class="tech-chip">Contextual Extraction</span>
+                  <span class="tech-chip">Desktop Workspace</span>
+                  <span class="tech-chip">Pattern Matching</span>
+                </div>
+                <div class="project-action-row">
+                  <button class="btn-inspect-arch" data-target-arch="label-extractor">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    Inspect Architecture
+                  </button>
+                  <span style="font-size:0.75rem;color:var(--text-dim);font-family:var(--font-mono)">PROD READY</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Interactive 3D System Architecture Studio -->
+      <section id="architecture">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Interactive Architecture Inspector</div>
+            <h2 class="section-title">System Design <span class="gradient-text">& Data Pipelines</span></h2>
+            <p class="section-subtitle">Click across the systems below to inspect data flows, component dependencies, and design trade-offs.</p>
+          </div>
+
+          <div class="arch-studio-container">
+            <!-- Tabs -->
+            <div class="arch-tabs">
+              <button class="arch-tab-btn active" data-arch="smart-examiner">
+                <span>📝</span> Smart Examiner & Progress Tracker
+              </button>
+              <button class="arch-tab-btn" data-arch="ocr-pipeline">
+                <span>⚡</span> Automated Document Processing Solution
+              </button>
+              <button class="arch-tab-btn" data-arch="occ-migration">
+                <span>🔄</span> Automated Migration Framework (OCC)
+              </button>
+              <button class="arch-tab-btn" data-arch="label-extractor">
+                <span>🏷️</span> Label-Based Extraction Tool
+              </button>
+            </div>
+
+            <!-- Architecture Display View -->
+            <div class="arch-display-view">
+              <!-- Visual Interactive Pipeline -->
+              <div class="arch-interactive-canvas-box">
+                <div class="pipeline-diagram" id="arch-diagram">
+                  <!-- Generated dynamically by app.js -->
+                </div>
+              </div>
+
+              <!-- Details Panel -->
+              <div class="arch-details-panel">
+                <div style="margin-bottom:14px;">
+                  <span class="arch-metric-chip" id="arch-metric">⚡ 40%+ Effort Reduction</span>
+                </div>
+                <h4 id="arch-title">Automated Document Processing Pipeline</h4>
+                <p id="arch-desc">
+                  End-to-end distributed capture and text extraction pipeline processing invoices, receipts, and financial statements with military-grade encryption and automated data indexing.
+                </p>
+
+                <div class="arch-highlights-list" id="arch-highlights">
+                  <!-- Bullets injected dynamically -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Professional Experience Timeline -->
+            <!-- Section: Professional Experience Timeline -->
+      <section id="experience">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Career Milestones</div>
+            <h2 class="section-title">Professional <span class="gradient-text">Work Experience</span></h2>
+            <p class="section-subtitle">Continuous engineering excellence delivering value and stability for enterprise clients.</p>
+          </div>
+
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <div class="company-title-box">
+                    <h3>Software Engineer</h3>
+                    <div class="company-sub">Stellaris Technologies Pvt Ltd</div>
+                  </div>
+                  <span class="tenure-pill">Jan 2022 – Present · 4.5+ Years</span>
+                </div>
+
+                <p style="color:var(--text-muted);font-size:0.92rem;margin-bottom:16px;">
+                  Software Engineer developing and modernizing web and desktop applications using C# and the .NET ecosystem, delivering automation solutions for document processing and legacy-system migration across education and healthcare-related workflows.
+                </p>
+
+                <ul class="timeline-bullets">
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Automated document processing:</strong> Integrated Google Cloud OCR API and Tesseract into a C#/.NET processing pipeline, with a React document-management interface, reducing manual document-processing effort by 40%+.</span>
+                  </li>
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Legacy-system migration:</strong> Developed a C# and WPF migration utility to support migration from OpenText Capture Center (OCC) to Intelligent Capture, reducing migration work from several hours to minutes.</span>
+                  </li>
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Context-aware extraction:</strong> Built a label-based field-extraction tool that identifies values through contextual labels rather than fixed layout coordinates; developed an interactive WPF workspace for form registration and template setup.</span>
+                  </li>
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Web and desktop delivery:</strong> Develop and maintain ASP.NET Core Razor Pages and MVC applications, alongside WPF and Windows Forms desktop applications for education and healthcare-related workflows.</span>
+                  </li>
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Database engineering:</strong> Design and maintain relational data structures in PostgreSQL and Microsoft SQL Server; develop stored procedures and optimize queries supporting application workflows and reporting.</span>
+                  </li>
+                  <li class="timeline-bullet">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>End-to-end engineering:</strong> Translate stakeholder requirements into implementation tasks, write maintainable C# code using SOLID principles, and contribute to unit testing, integration testing, debugging and performance validation.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Certifications & Education -->
+            <!-- Section: Certifications & Education -->
+      <section id="certifications">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Credentials & Background</div>
+            <h2 class="section-title">Certifications <span class="gradient-text">& Education</span></h2>
+            <p class="section-subtitle">Committed to lifelong engineering growth, AI innovation, and solid computer science foundations.</p>
+          </div>
+
+          <div class="cert-edu-grid">
+            <!-- Certification Card -->
+            <div class="cert-card">
+              <span class="cert-badge-ribbon">⭐ VERIFIED COMPLETION</span>
+              <h3>AI-First Software Engineering (Core Java)</h3>
+              <div class="cert-issuer">Airtribe · Certificate of Completion · Issued 14 October 2026</div>
+              <p class="cert-details-p">
+                Intensive industry certification covering modern AI integration into software engineering workflows and Core Java, including agentic architecture, LLM prompt engineering, automated test generation, and AI-accelerated enterprise development.
+              </p>
+              <div class="cert-tag-list">
+                <span class="tech-chip">AI-First SDLC</span>
+                <span class="tech-chip">Core Java</span>
+                <span class="tech-chip">LLM Pipelines</span>
+                <span class="tech-chip">Agentic AI Workflows</span>
+                <span class="tech-chip">Prompt Engineering</span>
+                <span class="tech-chip">Verified Completion</span>
+              </div>
+            </div>
+
+            <!-- Education Card -->
+            <div class="edu-card">
+              <div>
+                <span class="section-tag" style="margin-bottom:14px;">ACADEMIC DEGREE</span>
+                <h3>Bachelor of Engineering (B.E.)</h3>
+                <div class="edu-institution">BGS Institute of Technology · Graduated August 2021</div>
+                <p class="edu-desc">
+                  Rigorous engineering coursework covering computer algorithms, data structures, relational database management systems, software engineering methodologies, and computer networks.
+                </p>
+              </div>
+
+              <div>
+                <h5 style="font-size:0.82rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:10px;letter-spacing:0.06em;">Spoken Languages</h5>
+                <div class="language-pills-row">
+                  <span class="lang-pill">English (Fluent)</span>
+                  <span class="lang-pill">Hindi (Fluent)</span>
+                  <span class="lang-pill">Kannada (Fluent)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Hasheem.CLI Interactive Terminal -->
+      <section class="terminal-section" id="terminal">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Interactive Developer Console</div>
+            <h2 class="section-title">Hasheem<span class="gradient-text">.CLI Studio</span></h2>
+            <p class="section-subtitle">Click quick action chips to interact directly with the portfolio environment.</p>
+          </div>
+
+          <div class="terminal-window">
+            <div class="terminal-titlebar">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">hasheem@stellaris-core: ~/portfolio (zsh)</div>
+              <div style="font-size:0.75rem;color:var(--accent-cyan);font-family:var(--font-mono)">ONLINE</div>
+            </div>
+
+            <div class="terminal-body" id="terminal-body">
+              <div class="cli-output-line system">Hasheem.CLI v4.5 (x86_64-pc-stellaris-netcore)</div>
+              <div class="cli-output-line">Click the chips below.</div>
+              <div class="cli-output-line highlight">-------------------------------------------------------------</div>
+            </div>
+
+            <div class="cli-quick-commands">
+              <span class="cli-quick-label">Quick Run:</span>
+              <button class="cli-chip-btn" data-cmd="bio">bio</button>
+              <button class="cli-chip-btn" data-cmd="skills">skills</button>
+              <button class="cli-chip-btn" data-cmd="projects">projects</button>
+              <button class="cli-chip-btn" data-cmd="experience">experience</button>
+              <button class="cli-chip-btn" data-cmd="cert">cert</button>
+              <button class="cli-chip-btn" data-cmd="linkedin">linkedin</button>
+              <button class="cli-chip-btn" data-cmd="github">github</button>
+              <button class="cli-chip-btn" data-cmd="resume">resume</button>
+              <button class="cli-chip-btn" data-cmd="contact">contact</button>
+              <button class="cli-chip-btn" data-cmd="clear">clear</button>
+            </div>
+
+            <div style="padding:14px 24px;background:#060914;border-top:1px solid rgba(255,255,255,0.06);">
+              <div class="cli-prompt-row">
+                <span class="cli-prompt-label">visitor@stellaris:~$</span>
+                <input type="text" id="cli-input" class="cli-input" placeholder="Type a command (e.g. 'skills', 'projects', 'resume')..." autocomplete="off" spellcheck="false">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Contact & Direct Connect Hub -->
+      <section id="contact">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-tag">Let's Connect</div>
+            <h2 class="section-title">Initiate a <span class="gradient-text">Conversation</span></h2>
+            <p class="section-subtitle">Interested in .NET development, architecture modernization, and building dependable enterprise software products.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="glass-card contact-info-card">
+              <div>
+                <h3>Get In Touch</h3>
+                <p style="color:var(--text-muted);font-size:0.95rem;margin-top:8px;">
+                  Whether you're looking for a dedicated senior engineer to lead a .NET initiative or want to discuss automated document pipelines, feel free to reach out directly.
+                </p>
+
+                <div class="contact-channels-list">
+                  <div class="contact-channel-item">
+                    <div class="channel-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <div class="channel-meta" style="flex:1;">
+                      <h5>Email</h5>
+                      <a href="mailto:hasheem7860@gmail.com">hasheem7860@gmail.com</a>
+                    </div>
+                    <button class="btn-icon btn-copy-info" data-copy="hasheem7860@gmail.com" title="Copy Email">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                  </div>
+
+                  <div class="contact-channel-item">
+                    <div class="channel-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    </div>
+                    <div class="channel-meta" style="flex:1;">
+                      <h5>Phone</h5>
+                      <a href="tel:+916361846692">+91-6361846692</a>
+                    </div>
+                    <button class="btn-icon btn-copy-info" data-copy="+916361846692" title="Copy Phone">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                  </div>
+
+                  <div class="contact-channel-item">
+                    <div class="channel-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </div>
+                    <div class="channel-meta" style="flex:1;">
+                      <h5>LinkedIn</h5>
+                      <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer">linkedin.com/in/mohammedhasheem-dotnet</a>
+                    </div>
+                    <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer" class="btn-icon" title="Open LinkedIn Profile">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                  </div>
+
+                  <div class="contact-channel-item">
+                    <div class="channel-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </div>
+                    <div class="channel-meta" style="flex:1;">
+                      <h5>GitHub</h5>
+                      <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer">github.com/Hasheem786</a>
+                    </div>
+                    <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer" class="btn-icon" title="Open GitHub Profile">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                  </div>
+
+                  <div class="contact-channel-item">
+                    <div class="channel-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <div class="channel-meta">
+                      <h5>Location</h5>
+                      <span>Mysore, Karnataka, India</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live Timezone Card -->
+              <div class="time-card-box">
+                <div class="time-city">
+                  <span class="pulse-dot"></span>
+                  <span>Local Time (Mysore, India)</span>
+                </div>
+                <div class="time-val" id="live-mysore-time">--:--:-- IST</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+        <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-text">
+          © <span id="current-year">2026</span> <strong>Mohammed Hasheem</strong> · Software Engineer | .NET Developer | Web & Desktop Applications.
+        </div>
+        <div class="footer-social-links">
+          <a href="http://www.linkedin.com/in/mohammedhasheem-dotnet" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/Hasheem786" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile" aria-label="GitHub Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <button class="btn-icon btn-open-resume-modal" title="View Resume" aria-label="View Resume">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+    <!-- Resume PDF Preview Modal -->
+    <div class="modal-backdrop" id="resume-modal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>Mohammed Hasheem — Resume</h3>
+          <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <iframe src="Hasheem_Resume.pdf" class="pdf-preview-frame" title="Hasheem Resume Preview"></iframe>
+        </div>
+        <div class="modal-footer">
+          <a href="Hasheem_Resume.pdf" download="Hasheem_Resume.pdf" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download PDF Copy
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Popup -->
+    <div class="toast-notice" id="toast-notice">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span>Notification</span>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="three-scene.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Ensure current year dynamically
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
